@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Agbalumo');
+.add__category {
+  z-index: -1;
+  margin-top: -50px;
+  background: linear-gradient(
+    90deg,
+    rgba(149, 0, 255, 1) 0%,
+    rgba(243, 0, 243, 1) 100%
+  );
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Agbalumo';
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+
+@media screen and (max-width: 560px) {
+  .add__category {
+    margin-left: 16%;
+    width: 50%;
+  }
+}
+
+.add__category input {
+  border: none;
+  outline: none;
+  width: 100%;
+  margin: 1rem;
+  margin-top: 3rem;
+  height: 40px;
+  border-radius: 10px;
+  padding: 0.5rem;
+  padding-left: 2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  font-family: 'Agbalumo';
+  font-size: 20px;
+}
+
+.add__category button {
+  padding: 1rem;
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  background-color: rgb(94, 3, 94);
+  font-family: 'Agbalumo';
+  cursor: pointer;
+}
